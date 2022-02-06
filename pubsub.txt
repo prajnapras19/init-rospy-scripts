@@ -1,0 +1,5 @@
+pub node 1: topic 1
+sub node 1: topic 2, topic 3
+pub node 2: topic 2
+pub node 3: topic 3
+sub node 4: topic 1
