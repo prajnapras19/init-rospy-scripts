@@ -94,7 +94,7 @@ for x in nodes_list:
             res += topics[y]['snake']
             res += ', queue_size=config.QueueSize.'
             res += topics[y]['snake']
-            res += '\n'
+            res += ')\n'
             f.write(res)
     except:
         pass
