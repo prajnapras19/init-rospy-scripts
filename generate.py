@@ -52,7 +52,7 @@ f.write('\nclass Node():\n')
 for x in nodes_list:
     f.write(TAB + nodes[x]['snake'] + ' = \'' + nodes[x]['pascal'] + '\'' + '\n')
 
-f.write('\nclass Topics():\n')
+f.write('\nclass Topic():\n')
 for x in topics_list:
     f.write(TAB + topics[x]['snake'] + ' = \'/' + topics[x]['snake'] + '\'\n')
 
